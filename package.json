@@ -4,16 +4,26 @@
   "description": "this is first project",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
     "fxjs": "^0.21.3",
+    "morgan": "^1.10.0",
     "nightmare": "^3.0.2",
     "ramda": "^0.28.0",
     "vo": "^4.0.2"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istywork/MEVN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/istywork/MEVN/issues"
+  },
+  "homepage": "https://github.com/istywork/MEVN#readme"
 }
